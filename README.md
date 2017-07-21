@@ -5,7 +5,7 @@ Boilerplate for developing and deploying Django/React on Docker
 ## Development Instructions
 
 1. Run the stack
-```sh
+...```sh
 docker-compose up
 ```
 
