@@ -17,5 +17,8 @@ docker exec djangodrfreactdocker_db_1 createdb -Upostgres webapp
 ## Features
 - Django
 - Django Rest Framework
-- React
 - Docker
+
+## Todo
+- React
+- Volumes support for auto code reload
