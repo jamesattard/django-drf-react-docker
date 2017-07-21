@@ -20,5 +20,5 @@ docker exec djangodrfreactdocker_db_1 createdb -Upostgres webapp
 - Docker
 
 ## Todo
-- React
+- Support for React and Webpack static assets
 - Volumes support for auto code reload
