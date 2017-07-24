@@ -73,12 +73,12 @@ Boilerplate for developing and deploying Django/React on Docker
    
 
 ## FAQ
-1. How is nginx connecting to the uwsgi server?
+**1. How is nginx connecting to the uwsgi server?**
 
    Through Unix socket. This is located at /webapp/app.sock. Current permissions are very open (666).
    
 
-2. How do I connect to the container for troubleshooting?
+**2. How do I connect to the container for troubleshooting?**
 
    You can 'exec' inside a running container as follows:
    ```sh
@@ -86,7 +86,7 @@ Boilerplate for developing and deploying Django/React on Docker
    ```
    
 
-3. Do I need to rebuild the Docker image everytime I update the code?
+**3. Do I need to rebuild the Docker image everytime I update the code?**
 
    Since the application source code is mounted as a data volume, you do not need to rebuild the whole image. You only need to restart the docker container as follows:
    ```sh
@@ -94,7 +94,7 @@ Boilerplate for developing and deploying Django/React on Docker
    ```
    
 
-4. Is this production ready?
+**4. Is this production ready?**
 
    Not really, but almost. Check out the security, and data volumes for the database and you'll be all set!
    
