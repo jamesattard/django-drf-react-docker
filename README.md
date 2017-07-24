@@ -88,7 +88,7 @@ Boilerplate for developing and deploying Django/React on Docker
 
 3. Do I need to rebuild the Docker image everytime I update the code?
 
-   No. You only need to restart the docker container as follows:
+   Since the application source code is mounted as a data volume, you do not need to rebuild the whole image. You only need to restart the docker container as follows:
    ```sh
    docker restart deploy_web_1
    ```
