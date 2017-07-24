@@ -88,7 +88,10 @@ Boilerplate for developing and deploying Django/React on Docker
 
 3. Do I need to rebuild the Docker image everytime I update the code?
 
-   Sucks to say yes. Watch for this space until I stop procrastinating and enable data volumes or fork it as a feature. Thanks!
+   No. You only need to restart the docker container as follows:
+   ```sh
+   docker restart deploy_web_1
+   ```
    
 
 4. Is this production ready?
@@ -103,4 +106,3 @@ Boilerplate for developing and deploying Django/React on Docker
 
 ## Todo
 - Support for React & Webpack static Assets
-- Support for painless code reloaded (aka Data Volumes)
