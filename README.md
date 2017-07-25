@@ -103,6 +103,14 @@ Boilerplate for developing and deploying Django/React on Docker
    Not really, but almost. Check out the security, and data volumes for the database and you'll be all set!
    
    
+**5. Do you I need to install Django on local devbox?**
+
+   No you don't need to. You can, for example, create your Django app through the Docker container:
+   ```sh
+   docker exec -it djangodrfreactdocker_web_1 python manage.py startapp dummy2
+   ```
+   
+   
 
 ## Features
 - Django
